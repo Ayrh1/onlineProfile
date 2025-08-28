@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 html {
   box-sizing: border-box;
   background-color: white;  /* #151515ff  */
@@ -24,6 +26,8 @@ body {
   flex-direction: column;
   align-items: center; 
   justify-content: space-between; 
+
+  font-family: 'Courier Prime', monospace;
 }
 
 /* ----- Main Nav ----- */  
@@ -52,7 +56,7 @@ main {
   height:100%;
   width: 20rem; 
   //border: 1px solid black;
-  font-size: 3rem;
+  font-size: 2.5rem;
 
   display: flex; 
   flex-direction: row;
@@ -77,6 +81,7 @@ main {
 a { 
   color: black; 
   cursor: pointer; 
+  text-decoration: none; 
 }
 
 a:hover {
@@ -259,11 +264,12 @@ a:focus {
   cursor: pointer; 
   transform: scale(1.05) rotate(-2deg);
   box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-  color: red; 
+  border: 0.2rem solid red;  
 }
 
 .projects h3 {
   text-align: center; 
+  color: white; 
 }
 
 /* Skills */
